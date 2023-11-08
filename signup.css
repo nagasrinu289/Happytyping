@@ -1,0 +1,49 @@
+.main-heading{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-family: serif;
+}
+.card{
+    background-color: cyan;
+    background-size: cover;
+    border-radius: 10%;
+    height: fit-content;
+    width: 40vw;
+    min-height:90vh;
+    padding-left: 1vh;
+    padding-right: 5vw;
+    padding-top: 5vw;
+}
+.divcont
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+input{
+    width: 30vw;
+    margin-left: 20px;
+   
+}
+::placeholder{
+    font-family: initial;
+    font-size: small;
+    color: lightgrey;
+}
+.radio
+{
+    width:10px;
+}
+.details{
+    margin: 5%;
+}
+.submit{
+    background-color: #8cc63f;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20%;
+    border-width: 0px;
+}
+
