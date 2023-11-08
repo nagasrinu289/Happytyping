@@ -1,1 +1,8 @@
-
+.a{
+    background-color: rgb(2, 2, 68);
+    height: 130px;
+}
+.button{
+    float: right;
+    margin: 10px;
+}
