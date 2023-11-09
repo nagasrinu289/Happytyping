@@ -1,8 +1,25 @@
 .a{
     background-color: rgb(2, 2, 68);
-    height: 130px;
+    height: 20vh;
+    width: 100%;
 }
 .button{
     float: right;
-    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+    margin-top: 30px;
+    size: 30px;
+}
+.logo{
+    width: 50vw;
+    height: 20vh;
+}
+@media (min-width:300px max-width:600px) {
+    .logo{
+        width: 100vw;
+    }
 }
