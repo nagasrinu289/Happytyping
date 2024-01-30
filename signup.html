@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
-    <link rel="stylesheet" type="text/css" href="signup.css"
+    <link rel="stylesheet" type="text/css" href="signup.css">
 </head>
 <body>
     <div>
     <h1 class="main-heading">Sign in</h1>
     </div>
     <div class="divcont">
-        <form>
+        <form action="/first_page.html" target="_blank" onsubmit="getdetails()">
             <div class="card">
             <div class="details">
             <label for="name">Name : </label>
@@ -19,7 +19,7 @@
             </div>
             <div class="details">
                 Gender:
-            <input type="radio" id="male" name="gender" class="radio" class="details" placeholder="Name">
+            <input type="radio" id="male" name="gender" class="radio"  placeholder="Name">
             <label for="male">MALE</label>
                 <input type="radio"  id="female" name="gender" class="radio">
                 <label for="female">FEMALE</label>
@@ -32,10 +32,10 @@
                 Phone Number     : <input type="number" name="phonenumber" id="Phonenumber" placeholder="Phone number" class="input">
             </div>
             <div class="details">
-                username         : <input type="text" name="username" id="Username" class="input" placeholder="user_name">
+                username         : <input type="text" name="username" id="usernameid" class="input" placeholder="user_name" required>
             </div>
             <div class="details">
-                Password         : <input type="password" name="password"  class="input" placeholder="password">
+                Password         : <input type="password" name="password"  class="input" id="passwordid" placeholder="password" required>
             </div>
             <div class="details">
                 Confirm password : <input type="password" name="password" class="input" placeholder="confirm password">
@@ -46,5 +46,6 @@
             </div>
         </form>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>
